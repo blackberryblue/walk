@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.project.walk.dao.MemberMapper">
+	<insert id="join">
+		INSERT INTO memberVO (id, password, username, regdate, email, addr)
+		VALUES(seq_membervo.nextval, #{password}, #{username}, sysdate, #{email}, #{addr})
+	</insert>
+	
+	<select id="getMemberById" resultType="MemberVO">
+		<![CDATA[
+			SELECT * 
+			FROM membervo
+			WHERE username = #{username}
+		]]>
+	</select> 
+	
+	<select id="count" resultType="int">
+		<![CDATA[
+			SELECT count(id) 
+			FROM membervo
+		]]>
+	</select>
+	
+	<select id="list" resultType="memberVO" >
+		<![CDATA[
+		SELECT * FROM membervo ORDER BY id DESC
+		]]>
+	</select>
+	
+	<select id="detail" resultType="memberVO">
+		<![CDATA[
+		SELECT * FROM memberVO WHERE id=#{id}
+		]]>
+	</select>
+	
+</mapper>
