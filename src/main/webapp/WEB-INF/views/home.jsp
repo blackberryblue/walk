@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -286,49 +287,37 @@
 	<div class="nav">
 		
 		<div class="dropdown">
-			<button class="dropbtn" href="#">게시판</button>
+			<button class="dropbtn" href="#">Home</button>
 			<div class="dropdown-content">
 				
 			 </div>
 		</div>
 		
-		<div class="dropdown" href="#">
-			<button class="dropbtn">산책</button>
-			<div class="dropdown-content">
-				
-			 </div>
-		</div>
+		
 		
 		<div class="dropdown" href="#">
-			<button class="dropbtn">추천</button>
+			<button class="dropbtn">서비스 이용 약관</button>
 			<div class="dropdown-content">
 				
 			 </div>
 		</div>
 
 		<div class="dropdown" href="#">
-			<button class="dropbtn">잡담</button>
+			<button class="dropbtn">BEST 인기글</button>
 			<div class="dropdown-content">
 				
 			 </div>
 		</div>
 
 		<div class="dropdown" href="#">
-			<button class="dropbtn">고객센터</button>
-			<div class="dropdown-content">
-				<a href="sub05_1.html">공지사항</a>
-				<a href="sub05_2.html">후기게시판</a>
-				<a href="sub05_3.html">자유게시판</a>
-				<a href="sub05_4.html">질문과 답변</a>
-			</div>
+			<button class="dropbtn">유저 게시판</button>
+			
 		</div>
 
 
 		<div class="dropdown" href="#">
-			<button class="dropbtn">경품추천</button>
-			<div class="dropdown-content">
-				<a href="index.html">룰렛</a>
-			</div>
+			<button class="dropbtn">관리자 게시판</button>
+			
 		</div>
 		
 </div>
