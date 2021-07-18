@@ -19,14 +19,14 @@
 <title>산책</title>
 
 <!-- Bootstrap core CSS -->
-<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
 <!-- Additional CSS Files -->
-<link rel="stylesheet" href="../assets/css/fontawesome.css">
-<link rel="stylesheet" href="../assets/css/templatemo-onix-digital.css">
-<link rel="stylesheet" href="../assets/css/animated.css">
-<link rel="stylesheet" href="../assets/css/owl.css">
+<link rel="stylesheet" href="assets/css/fontawesome.css">
+<link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+<link rel="stylesheet" href="assets/css/animated.css">
+<link rel="stylesheet" href="assets/css/owl.css">
 
 <style>
 .container100 {
@@ -55,7 +55,7 @@ https://templatemo.com/tm-565-onix-digital
 					<nav class="main-nav">
 						<!-- ***** Logo Start ***** -->
 						<a href="/" class="logo"> <img
-							src="../assets/images/banner20.png">
+							src="assets/images/banner20.png">
 						</a>
 						<!-- ***** Logo End ***** -->
 						<!-- ***** Menu Start ***** -->
