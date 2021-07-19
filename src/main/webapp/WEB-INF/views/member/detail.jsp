@@ -1,8 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ include file="../includes/header.jsp"%>
-
+<!DOCTYPE html>
+<html>
+<br/><br/><br/><br/>
 <title>유저 정보 보기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script
@@ -11,23 +14,10 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- 
-<style> 
-.container{
-margin-top: 100px;
-}
-
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-
-</style>
 </head>
-
 <body>
 	<div class="container">
+		<br />
 		<h2>회원 정보</h2>
 		<br />
 		<div class="form-group">
@@ -57,10 +47,12 @@ margin-top: 100px;
 		</div>
 
 		<button type="button" id="btnUpdate" class="btn btn-primary btn-sm">수정</button>
-		<button type="button" id="btnDelete" class="btn btn-primary btn-sm">탈퇴</button>
+		<button type="button" id="btnDelete" class="btn btn-primary btn-sm">삭제</button>
 
 	</div>
-<%@ include file="../includes/footer_second.jsp"%>
+	<br />
+	<br />
+	
 
 </body>
 </html>

@@ -7,8 +7,9 @@
 <html>
 <body>
 
-<br/>
-<h2>회원 목록 (total: ${ count })</h2>
+<br/><br/><br/><br/>
+
+
 <br/>
 <c:forEach items="${ lists }" var="membervo"><br/>
 <div class="card bg-warning">

@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
 <!-- include summernote-ko-KR -->
 <script src="/resources/js/summernote-ko-KR.js"></script>
 <title>글쓰기</title>
-
+<%@ include file="../includes/header.jsp"%>
 <script>
 	$(document).ready(function() {
 		$('#summernote').summernote({
@@ -28,6 +29,7 @@
 </script>
 </head>
 <body>
+	 <br><br><br><br><br><br><br><br><br><br>
 	<h2 style="text-align: center;">글 작성</h2>
 	<br>
 	<br>

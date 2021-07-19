@@ -296,7 +296,6 @@ header
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
-  
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -308,13 +307,13 @@ header
 }
 
 .header-area {
-  background-color: #03A4ED;
+  background-color: #fafafa;
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 60px;
+  height: 100px;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -353,7 +352,11 @@ header
   margin-top: 30px;
   margin-right: 0px;
   background-color: transparent;
- 
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
   z-index: 999;
 }
 
@@ -387,7 +390,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
@@ -398,15 +401,10 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
- 
-
- 
 }
 
 .header-area .main-nav .nav li a {
   color: #2a2a2a;
-  text-align: center;
-
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -1786,7 +1784,7 @@ Footer Style
 
 .footer-dec {
   width: 100%;
-  margin-top: 0px;
+  margin-top: 160px;
 }
 
 footer {
