@@ -6,7 +6,6 @@
 <!DOCTYPE html>
 <html>
 <title>게시글 상세 보기</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script
@@ -15,8 +14,25 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+
+body {
+
+margin-top:0px
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+</style>
 </head>
-<body>
+
+<body class="pt-5">
 	<div class="container">
 		<br />
 		<h2>게시글 상세보기</h2>
@@ -24,7 +40,7 @@
 		<br />
 		<div class="form-group">
 			<label for="title">게시글 번호:</label> <input type="text"
-				class="form-control" id="id" name="id" value="${boarduser.bnum}"
+				class="form-control" id="bnum" name="bnum" value="${boarduser.bnum}"
 				readonly="readonly">
 		</div>
 		<div class="form-group">

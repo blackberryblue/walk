@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 <body>
+
 <br/>
 <h2>회원 목록 (total: ${ count })</h2>
 <br/>
@@ -19,5 +20,7 @@
   </div>
 </div>
 </c:forEach>
+
+
 </body>
 </html>

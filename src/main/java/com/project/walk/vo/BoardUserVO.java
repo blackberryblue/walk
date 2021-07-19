@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class BoardUserVO {
 	private int id;  // 글 생성순서?
-	private int bnum; // 글번호
+	private Integer bnum; // 글번호
 	private String title;
 	private String writer;
 	private String content;

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ include file="header.jsp"%>
-
+<%@ include file="../includes/header.jsp"%>
 
 <title>유저 정보 보기</title>
 <link rel="stylesheet"
@@ -12,10 +11,16 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		
-<style>
+ 
+<style> 
 .container{
 margin-top: 100px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 </style>
@@ -23,7 +28,6 @@ margin-top: 100px;
 
 <body>
 	<div class="container">
-		<br />
 		<h2>회원 정보</h2>
 		<br />
 		<div class="form-group">
@@ -56,8 +60,7 @@ margin-top: 100px;
 		<button type="button" id="btnDelete" class="btn btn-primary btn-sm">탈퇴</button>
 
 	</div>
-	<br />
-	<br />
+<%@ include file="../includes/footer_second.jsp"%>
 
 </body>
 </html>

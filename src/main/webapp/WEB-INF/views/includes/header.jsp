@@ -69,7 +69,6 @@ https://templatemo.com/tm-565-onix-digital
 							<a href="/" class="active">Home</a></li>
 									<li class="scroll-to-section"><a href="/member/logout">Logout</a></li>
 									<li class="scroll-to-section"><a href="/member/list">회원정보확인</a></li>
-									<li class="scroll-to-section"><a href="/member/modify">회원정보수정</a></li>
 									<li class="scroll-to-section"><a href="/member/remov">회원탈퇴</a></li>
 									<li class="scroll-to-section"><a href="/boarduser/insert">사용자글작성</a></li>
 									<li class="scroll-to-section"><a href="/boardadmin/insert">관리자글작성</a></li>
@@ -93,4 +92,3 @@ https://templatemo.com/tm-565-onix-digital
 	<!-- ***** Header Area End ***** -->
 
 </body>
-</html>
