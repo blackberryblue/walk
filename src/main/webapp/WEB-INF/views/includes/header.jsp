@@ -71,7 +71,7 @@ https://templatemo.com/tm-565-onix-digital
 									<li class="scroll-to-section"><a href="/member/list">회원정보확인</a></li>
 									<li class="scroll-to-section"><a href="/boarduser/insert">사용자글작성</a></li>
 									<li class="scroll-to-section"><a href="/boardadmin/insert">관리자글작성</a></li>
-									<li class="scroll-to-section"><a href="/boardadmin/insert">회원목록보기</a></li>
+									<li class="scroll-to-section"><a href="/boarduser/list">회원목록보기</a></li>
 
 								</c:when>
 								<c:otherwise>

@@ -43,7 +43,6 @@ button {
 	font-size: 15px;
 	background-color: #4CAF50;
 	border-radius: 20px;
-	margin-bottom: 10%;
 }
 
 table {
@@ -173,7 +172,7 @@ h6{
 
 
 	<div class="footer-dec">
-		<img src="assets/images/footer-dec.png" alt="">
+		<img src="assets/images/footer_join_photo.jpg" alt="">
 	</div>
 
 

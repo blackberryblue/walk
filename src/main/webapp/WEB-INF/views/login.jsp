@@ -12,7 +12,7 @@
 
 <style>
 body{
-margin-top: 300px;
+margin-top: 150px;
 
 
 }
@@ -27,11 +27,19 @@ button {
 	font-size: 15px;
 	background-color: #4CAF50;
 	border-radius: 20px;
-	margin-bottom: 10%;
+	margin-bottom: 50px;
 }
 h2{
 font-family: poppins;
 color: #ff695f;
+}
+
+.footer-dec {
+margin-top: 0;
+}
+
+.input-wrap{
+margin-bottom: 0;
 }
 </style>
 
@@ -69,7 +77,7 @@ color: #ff695f;
 	</center>
 	
 	<div class="footer-dec">
-		<img src="assets/images/footer-dec.png" alt="">
+		<img src="/assets/images/footer_photo.jpg" alt="">
 	</div>
 </body>
 </html>
